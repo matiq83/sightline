@@ -15,7 +15,7 @@ if (!function_exists('add_action')) {
 
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL); 
+//error_reporting(E_ALL);
 //Global define variables
 define('SIGHTLINE_PLUGIN_NAME', 'SIGHTLINE');
 define('SIGHTLINE_PLUGIN_PATH', plugin_dir_path(__FILE__));
@@ -29,7 +29,6 @@ define('SIGHTLINE_ASSETS_DIR_URL', SIGHTLINE_PLUGIN_URL . 'assets/');
 define('SIGHTLINE_ASSETS_DIR_PATH', SIGHTLINE_PLUGIN_PATH . 'assets/');
 define('SIGHTLINE_SETTINGS_KEY', '_sightline_options');
 define('SIGHTLINE_TEXT_DOMAIN', 'sightline');
-define('SIGHTLINE_UPDATE_URL', 'http://portfolio.itfledge.com/wp0822/wp-content/plugins/');
 
 //Plugin update checker
 require SIGHTLINE_PLUGIN_PATH . 'update/plugin-update-checker.php';
