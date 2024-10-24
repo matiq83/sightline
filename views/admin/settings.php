@@ -82,7 +82,7 @@
 
                             <div class="form-group">
                                 <label><?php echo __('Mailchimp API Key', SIGHTLINE_TEXT_DOMAIN); ?></label>
-                                <?php $value = isset($options['mailchimp_key']) ? $options['mailchimp_key'] : "dc5720bd03c3f093d9d4dc7319f59e4d-us2"; ?>
+                                <?php $value = isset($options['mailchimp_key']) ? $options['mailchimp_key'] : ""; ?>
                                 <input type="text" name="mailchimp_key" id="mailchimp_key" value="<?php echo $value ?>" />
                             </div>
                             <div class="form-group">
